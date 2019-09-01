@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebService2.0</string>
+
+    <string name="txtTitulo">Users Web Service</string>
+    <string name="txtNombre">Name</string>
+    <string name="txtApellidos">Surnames</string>
+    <string name="txtCorreo">Mail</string>
+
+    <string name="btnGuardar">Save</string>
+    <string name="btnActualizar">Update</string>
+    <string name="btnEliminar">Delete</string>
+    <string name="btnBuscar">Search</string>
+
+    <string name="msj1">Registration Successful!</string>
+    <string name="msj2">Update Data!</string>
+    <string name="msj3">Data Removed!</string>
+    <string name="msj4">Looking...</string>
+
+    <string name="tituloMensajeAdvertencia">Warning!</string>
+    <string name="msj5">Do you want to delete the record?</string>
+    <string name="confirm1">Yes</string>
+    <string name="confirm2">No</string>
+
+</resources>

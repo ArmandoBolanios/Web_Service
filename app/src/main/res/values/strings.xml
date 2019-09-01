@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WebService2.0</string>
+
+    <string name="txtTitulo">Usuarios Web Service</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtApellidos">Apellidos</string>
+    <string name="txtCorreo">Correo</string>
+
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnActualizar">Actualizar</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="btnBuscar">Buscar</string>
+
+    <string name="msj1">Registro Exitoso!</string>
+    <string name="msj2">Datos Actualizados!</string>
+    <string name="msj3">Registro Eliminado!</string>
+    <string name="msj4">Buscando...</string>
+
+
+    <string name="tituloMensajeAdvertencia">Advertencia!</string>
+    <string name="msj5">¿Desea eliminar el registro?</string>
+    <string name="confirm1">Sí</string>
+    <string name="confirm2">No</string>
+
+</resources>

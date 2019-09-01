@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitulo"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNombre"
+        android:layout_alignBaseline="@+id/edtNombre"
+        android:layout_alignBottom="@+id/edtNombre"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtApellidos"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCorreo"
+        android:layout_alignBaseline="@+id/edtCorreo"
+        android:layout_alignBottom="@+id/edtCorreo"
+        android:layout_alignStart="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/edtApellidos" />
+
+    <EditText
+        android:id="@+id/edtApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignStart="@+id/edtCorreo" />
+
+    <EditText
+        android:id="@+id/edtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="28dp"
+        android:layout_alignTop="@+id/btnDelete"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="actions"
+        android:text="@string/btnGuardar"
+        android:layout_alignBottom="@+id/edtNombre"
+        android:layout_alignStart="@+id/btnUpdate"
+        android:layout_alignEnd="@+id/btnUpdate" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="actions"
+        android:text="@string/btnEliminar"
+        android:layout_above="@+id/btnSearch"
+        android:layout_alignStart="@+id/btnSearch" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="actions"
+        android:text="@string/btnActualizar"
+        android:layout_alignBaseline="@+id/edtApellidos"
+        android:layout_alignBottom="@+id/edtApellidos"
+        android:layout_alignStart="@+id/btnDelete" />
+
+    <EditText
+        android:id="@+id/edtBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/edtCorreo"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="59dp"
+        android:onClick="actions"
+        android:text="@string/btnBuscar"
+        android:layout_alignBottom="@+id/edtBuscar"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
